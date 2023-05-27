@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>LogIn</title>
+</head>
+<body>
+    <main class="bg-secondary">
+        <div class="container">
+            <div class="row min-vh-100 justify-content-center align-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="text-center mb-4">
+                        <a href="index.html" class="text-decoration-none text-black"><i class="bi bi-meta brand-logo"></i></a>
+                        <h4 class="">Median</h4>
+                    </div>
+                    <div class="p-4 bg-white w-100">
+                        <h5 class="text-center mt-2">Log in an account</h5>
+                        
+                        <!-- form inputs -->
+                        <form action="">
+                            <div class="mt-5">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-control form-control-lg ">
+                            </div>
+                            <div class="mt-4">
+                                <label for="password" class="form-label">Password</label>
+                                <div class="input-group">
+                                    <input type="password" id="password" name="password" class="form-control form-control-lg">
+                                    <button class="btn btn-secondary btn-lg">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                                <button class="mt-5 mb-4 w-100 btn btn-lg btn-primary d-block align-content-center">
+                                    <i class="bi bi-lock-fill me-1"></i>
+                                    Log In
+                                </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
